@@ -1,0 +1,697 @@
+
+/* 
+
+
+
+*/
+
+
+
+*, *::after, *::before{
+    
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    
+    /* outline: 5px solid lime;  */
+    background-color: rgba(777, 777, 777, 0.5);
+    
+    
+    
+    
+    
+}
+
+
+html{
+
+    scroll-behavior: smooth; 
+    
+    
+}
+
+:root{
+
+    
+    /* Add in the root variables here  */
+    
+    
+}
+
+
+
+body{
+
+    
+    padding: 0px; 
+    margin: 0px; 
+    position: relative; 
+    
+    width: 100vw; 
+    min-height: 100vh; 
+    
+    /* background-color: #444;  */
+    
+    color: #2d2525;     
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+    
+}
+
+
+/* Add in the main container here  */
+
+.mainContainer{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* place-content: center; */
+    width: 100vw; 
+    min-height: 100vh;
+    
+    /* background-color: blue;  */
+    
+    
+    /* background-color: #343333; */
+    position: relative;
+    color: black; 
+    
+    
+}
+
+
+.form{
+    
+    display: grid;
+    gap: 3rem; 
+    
+    width: clamp(12rem, 30vw + 1rem, 33rem);
+    place-content: center;
+    background-color: white; 
+    min-height: 80vh;
+    margin-left: 3%; 
+    
+        
+    }
+
+input {
+    color: black; 
+    
+    
+}
+
+/* Message input field  */
+.message{
+    color: black; 
+    
+    
+}
+
+
+.submittedMessage{
+
+    
+    
+    
+    
+}
+
+
+
+.form-group{
+
+    
+}
+
+.message{
+    
+    
+    width: clamp(12rem, 20vw + 1rem, 22rem);
+    border: none; 
+    /* background-color: #a2a2a2;  */
+    outline: white;  
+    text-decoration: none;
+    font-size: 0.93rem;
+    border-bottom: 3px solid rgb(60, 58, 58) !important;
+    
+    
+}
+
+
+.input{
+    
+    width: clamp(12rem, 20vw + 1rem, 22rem);
+    
+    border: none; 
+    /* border: 5px 5px solid #a2a2a2;  */
+    /* outline: 30px solid #a2a2a2;  */
+    
+    /* background-color: lightslategrey;  */
+    /* background-color: #a2a2a2;  */
+    outline: none !important; 
+    padding: 0px; 
+    margin: 0px;
+    color: black;
+    outline: 4px solid white !important; 
+    border: 0 !important; 
+    background-color: white; 
+    border-bottom: 3px solid rgb(71, 68, 68) !important;
+    
+}
+
+/* input:focus, input:focus{
+    outline: none;
+}
+
+textarea:focus, input:focus{
+    outline: none !important;
+    border: none !important;
+    
+} */
+
+
+
+.submitButton{
+    
+    
+    
+}
+
+
+
+/* Add in the page content rulesets here  */
+
+
+.pageContentContainer{
+    
+    display: grid;
+    place-content: center;
+
+    
+}
+
+
+
+
+
+
+
+/* Add in the media queries here  */
+
+
+
+/* Add in the container queries here  */
+
+
+
+/* Add in the CSS Effects here  */
+
+
+
+/* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
